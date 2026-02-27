@@ -10,7 +10,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",   # Vite
         "http://localhost:3000",
-        "https://traditionalknowledgesystem.vercel.app/",   # CRA (safe to keep)
+        "https://traditionalknowledgesystem.vercel.app",   # CRA (safe to keep)
     ],
     allow_credentials=True,
     allow_methods=["*"],
